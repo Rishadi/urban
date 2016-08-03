@@ -1,48 +1,90 @@
 *{
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding:0;
 }
-body  {
-    background-image: url("../images/bg.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*top navigation*/
-ul.topnav {
-    list-style-type: none;
-    margin: 0 150px 0 0;
-    padding: 0;
-    overflow: hidden;
-}
-ul.topnav li {
-    float: right;
-}
-ul.topnav li a {
-    font-size: 20px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-ul.topnav li a:hover {
-    color: blue;
-}
-/*content*/
-div.transbox {
-  margin: 50px 150px;
-  background-color: #000000;
-  opacity: 0.2;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #ffffff;
-}
-h3{
-    font-size: 60px;
-    text-align: center;
-    color: #ffffff;
+ul, li, a, h3, h2, h1, p{
+  color: #fff;
 }
 
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*top navigation*/
+.logo{
+  float: left;
+  height: 85px;
+  margin: 10px 0 0 15px;
+    a {
+    font-size: 24px;
+    text-decoration:none;
+    background-color:transparent;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+.logo >  a:hover,.logo >  a:focus {
+    background-color:transparent;
+    text-decoration:none;
+    color: #fff;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+    margin-top: 25px;
+}
+
+.navbar-custom .navbar-right > li > a:hover, .navbar-custom .navbar-right > li > a:focus,  {
+    color: #CC6600;
+    background-color:transparent;
+}
+
+button.navbar-toggle{
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid #fff;
+    .icon-bar{
+      background-color: purple;
+    }
+}
+
+a:link{
+  color: red;
+  background-color: transparent;
+}
+
+a:hover {
+  color: black ;
+  background-color: #def ;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #CC9900;
+}
+
+div.transbox {
+  padding: 5px;
+  background-color: #000000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+  p {
+    margin: 2%;
+    font-weight: bold;
+  }
+  h3 {
+    text-align: center;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo img {
+    width:40px;
+    height: 40px;
+  }
+  .logo a{
+    font-size: 18px;
+  }
+}

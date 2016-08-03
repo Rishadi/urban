@@ -1,0 +1,113 @@
+/* line 1, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../sass/style.scss */
+ul, li, a, h3, h2, h1, p {
+  color: #fff;
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*top navigation*/
+/* line 16, ../sass/style.scss */
+.logo {
+  float: left;
+  height: 85px;
+  margin: 10px 0 0 15px;
+}
+/* line 20, ../sass/style.scss */
+.logo a {
+  font-size: 24px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 28, ../sass/style.scss */
+.logo > a:hover, .logo > a:focus {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 33, ../sass/style.scss */
+.navbar-custom .navbar-nav > li > a {
+  color: #fff;
+  margin-top: 25px;
+}
+
+/* line 38, ../sass/style.scss */
+.navbar-custom .navbar-right > li > a:hover, .navbar-custom .navbar-right > li > a:focus {
+  color: #CC6600;
+  background-color: transparent;
+}
+
+/* line 43, ../sass/style.scss */
+button.navbar-toggle {
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+/* line 47, ../sass/style.scss */
+button.navbar-toggle .icon-bar {
+  background-color: purple;
+}
+
+/* line 52, ../sass/style.scss */
+a:link {
+  color: red;
+  background-color: transparent;
+}
+
+/* line 57, ../sass/style.scss */
+a:hover {
+  color: black;
+  background-color: #def;
+}
+
+/* line 62, ../sass/style.scss */
+.nav a {
+  text-decoration: none;
+  color: #CC9900;
+}
+
+/* line 67, ../sass/style.scss */
+div.transbox {
+  padding: 5px;
+  background-color: #000000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+}
+/* line 73, ../sass/style.scss */
+div.transbox p {
+  margin: 2%;
+  font-weight: bold;
+}
+/* line 77, ../sass/style.scss */
+div.transbox h3 {
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 83, ../sass/style.scss */
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* line 87, ../sass/style.scss */
+  .logo a {
+    font-size: 18px;
+  }
+}

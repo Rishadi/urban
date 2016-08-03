@@ -1,0 +1,34 @@
+.navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
+	background-color:transparent;
+}
+.social{
+	padding: 5px
+}
+.social > li {
+	display: inline-block;
+	float: left;
+	
+}
+.social > li > a {
+	color: #777;
+}
+.social .fa-facebook:hover {
+	color: #4060A5;
+}
+
+.social .fa-twitter:hover {
+	color: #00ABE3;
+}
+
+.social .fa-google-plus:hover {
+	color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+	color: #0094BC;
+}
+@media screen and (max-width: 768px) {
+	.social{
+		float: right;
+	}
+}
